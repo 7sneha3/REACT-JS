@@ -1,0 +1,81 @@
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #e6f0ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 64, 128, 0.2);
+  }
+  
+  .form-container label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .form-container input,
+  select {
+    width: 88%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid #a0c4ff;
+  }
+  
+  .password-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .password-container button {
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  .name-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .name-field {
+    flex: 1;
+  }
+
+  .required {
+    color: red;
+    margin-left: 2px;
+  }
+
+  button[type="submit"], [type="button"] {
+    background-color: #007BFF;        /* Bootstrap blue */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button[type="submit"]:hover, [type="button"]:hover{
+    background-color: #0056b3;       /* Darker blue on hover */
+    transform: scale(1.02);
+  }
+  
+  button[type="submit"]:disabled, [type="button"]:disabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    transform: none;
+  }
+  

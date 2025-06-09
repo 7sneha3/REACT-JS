@@ -1,0 +1,52 @@
+/* SuccessPage.css */
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .success-card {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .success-card h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .success-card p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .success-card p strong {
+    color: #0277bd;
+  }
+  
+  .back-btn {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-btn:hover {
+    background-color: #01579b;
+  }
+  
